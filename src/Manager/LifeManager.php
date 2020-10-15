@@ -22,21 +22,12 @@ class LifeManager{
       }
   }
 
-  public function getLifeFor($a){
-    return $this-> lives[$a];
+
+  public function getLifeFor($letter){
+    return $this-> lives[$letter];
   }
 
   public function getSurvivors(){
-    // @todo
-    $tab_survivor = [];
-    $survivor = $robot->getLifeFor();
 
-    if(getLifeFor() >= 1){
-      return $tab_survivor[$survivor];
-    }
-    else{
-      return $tab_survivor[];
-    }
-    
   }
-}
+} 
