@@ -27,7 +27,19 @@ class LifeManager{
     return $this-> lives[$letter];
   }
 
-  public function getSurvivors(){
+  
 
+  public function getSurvivors(){
+    // @todo
+    $tab_survivor = [];
+    $survivor = $this->_lives($letters);
+
+    if($survivor >= 1){
+      return $tab_survivor[$survivor];
+    }
+    else{
+      return $tab_survivor[];
+    }
+    
   }
 } 
