@@ -31,14 +31,13 @@ class LifeManager{
 
   public function getSurvivors(){
     // @todo
-    $tab_survivor = [];
-    $survivor = $this->_lives($letters);
+    $this->getLifeFor($letter);
 
-    if($survivor >= 1){
-      return $tab_survivor[$survivor];
+    if($letter >= 1){
+      return $letter = [];
     }
     else{
-      return $tab_survivor[];
+      return ;
     }
     
   }
